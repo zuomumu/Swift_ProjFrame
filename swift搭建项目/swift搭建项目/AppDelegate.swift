@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainVC = TBMainViewController()
         window?.rootViewController = mainVC;
         window?.makeKeyAndVisible()
+        print("cddddddd")
         return true
     }
 }
