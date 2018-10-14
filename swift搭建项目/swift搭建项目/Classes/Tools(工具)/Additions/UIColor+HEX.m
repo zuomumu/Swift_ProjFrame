@@ -18,7 +18,6 @@
     if ([cString length] < 6) {
         return [UIColor clearColor];
     }
-    
     // strip 0X if it appears
     if ([cString hasPrefix:@"0X"])
         cString = [cString substringFromIndex:2];
@@ -43,7 +42,6 @@
     range.location = 4;
     NSString *bString = [cString substringWithRange:range];
     
-    // Scan values
     unsigned int r, g, b;
     [[NSScanner scannerWithString:rString] scanHexInt:&r];
     [[NSScanner scannerWithString:gString] scanHexInt:&g];
