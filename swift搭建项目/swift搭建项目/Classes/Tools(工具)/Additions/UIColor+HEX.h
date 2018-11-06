@@ -12,7 +12,8 @@
 + (UIColor *) colorWithHexString: (NSString *)color;
 // fasdf
 + (UIColor *) colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
-// fasfasdfa
+// dsfsdfsfd
+fasfasdfa
 // sdfsdfsdf
 // fasdfsfad
 @end
