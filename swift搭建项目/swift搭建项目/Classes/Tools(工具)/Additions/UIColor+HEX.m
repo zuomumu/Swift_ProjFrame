@@ -20,8 +20,7 @@
     }
     
     // strip 0X if it appears
-    if ([cString hasPrefix:@"0X"])
-        cString = [cString substringFromIndex:2];
+  // fsafs
     if ([cString hasPrefix:@"#"])
         cString = [cString substringFromIndex:1];
     if ([cString length] != 6)

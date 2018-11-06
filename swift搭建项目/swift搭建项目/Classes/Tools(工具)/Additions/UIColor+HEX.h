@@ -10,6 +10,7 @@
 
 @interface UIColor (HEX)
 + (UIColor *) colorWithHexString: (NSString *)color;
+// fasdf
 + (UIColor *) colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
-
+// fasfasdfa
 @end
