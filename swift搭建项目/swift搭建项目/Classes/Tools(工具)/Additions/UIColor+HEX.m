@@ -18,14 +18,12 @@
     if ([cString length] < 6) {
         return [UIColor clearColor];
     }
-    
-    // strip 0X if it appears
-  // fsafs
+
     if ([cString hasPrefix:@"#"])
         cString = [cString substringFromIndex:1];
     if ([cString length] != 6)
         return [UIColor clearColor];
-    
+    //kkl;;;lkk
     // Separate into r, g, b substrings
     NSRange range;
     range.location = 0;
