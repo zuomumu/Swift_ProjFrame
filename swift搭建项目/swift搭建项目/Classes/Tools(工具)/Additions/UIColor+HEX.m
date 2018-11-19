@@ -14,7 +14,7 @@
 {
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     
-    if ([cString length] < 6) {
+    if ([cString length] < 8) {
         return [UIColor clearColor];
     }
     
