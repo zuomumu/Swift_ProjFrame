@@ -14,10 +14,12 @@
 {
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     
-    if ([cString length] < 8) {
+    if ([cString length] < 4) {
         return [UIColor clearColor];
     }
-    
+    else {
+        printf("adfa")
+    }
     // strip 0X if it appears
   // fsafs
     if ([cString hasPrefix:@"#"])
