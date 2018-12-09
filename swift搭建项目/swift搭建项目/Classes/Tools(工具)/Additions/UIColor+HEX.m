@@ -23,7 +23,7 @@
         cString = [cString substringFromIndex:1];
     if ([cString length] != 6)
         return [UIColor clearColor];
-    
+    //kkl;;;lkk
     // Separate into r, g, b substrings
     NSRange range;
     range.location = 0;
