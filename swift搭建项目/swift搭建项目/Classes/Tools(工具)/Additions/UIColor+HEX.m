@@ -18,9 +18,7 @@
     if ([cString length] < 6) {
         return [UIColor clearColor];
     }
-    
     // strip 0X if it appears
-  // fsafs
     if ([cString hasPrefix:@"#"])
         cString = [cString substringFromIndex:1];
     if ([cString length] != 6)

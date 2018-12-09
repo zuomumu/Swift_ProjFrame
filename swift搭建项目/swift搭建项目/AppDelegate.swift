@@ -19,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainVC = TBMainViewController()
         window?.rootViewController = mainVC;
         window?.makeKeyAndVisible()
+        let  dic = ["id":"12"]
+        guard let ps = dic["name"] as? String else{
+            return true
+        }
         return true
     }
 }
