@@ -23,7 +23,6 @@
         cString = [cString substringFromIndex:1];
     if ([cString length] != 6)
         return [UIColor clearColor];
-    //kkl;;;lkk
     // Separate into r, g, b substrings
     NSRange range;
     range.location = 0;
@@ -39,7 +38,6 @@
     //b
     range.location = 4;
     NSString *bString = [cString substringWithRange:range];
-    
     // Scan values
     unsigned int r, g, b;
     [[NSScanner scannerWithString:rString] scanHexInt:&r];
